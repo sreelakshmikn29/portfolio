@@ -1,391 +1,1038 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sreelakshmi KN | Portfolio</title>
 
-<style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,Helvetica,sans-serif;
-}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-body{
-background:#f5f7fa;
-color:#333;
-line-height:1.6;
-}
+    <title>Sreelakshmi KN | Instructional Designer Portfolio</title>
 
-header{
-background:linear-gradient(135deg,#0f4c81,#4facfe);
-color:white;
-padding:80px 20px;
-text-align:center;
-}
+    <meta name="description"
+        content="Portfolio of Sreelakshmi KN - Instructional Designer, Learning Experience Designer, eLearning Developer and AI Content Creator.">
 
-header h1{
-font-size:3rem;
-}
+    <meta name="keywords"
+        content="Instructional Designer, Articulate Storyline, Rise 360, AI Content Creator, eLearning, Learning Experience Designer, Bengaluru">
 
-header h2{
-font-weight:400;
-margin-top:10px;
-}
+    <meta name="author" content="Sreelakshmi KN">
 
-header p{
-margin-top:20px;
-font-size:18px;
-}
+    <meta property="og:title" content="Sreelakshmi KN Portfolio">
 
-.btn{
-display:inline-block;
-margin-top:25px;
-padding:12px 25px;
-background:white;
-color:#0f4c81;
-text-decoration:none;
-border-radius:30px;
-font-weight:bold;
-transition:.3s;
-}
+    <meta property="og:description"
+        content="Instructional Designer | Learning Experience Designer | AI Powered Content Creator">
 
-.btn:hover{
-background:#222;
-color:white;
-}
+    <meta property="og:type" content="website">
 
-nav{
-background:#fff;
-padding:15px;
-display:flex;
-justify-content:center;
-gap:30px;
-position:sticky;
-top:0;
-box-shadow:0 2px 10px rgba(0,0,0,.1);
-z-index:100;
-}
+    <meta property="og:image" content="images/profile.jpg">
 
-nav a{
-text-decoration:none;
-color:#333;
-font-weight:bold;
-}
+    <meta property="og:url" content="https://sreelakshmikn29.github.io/portfolio/">
 
-nav a:hover{
-color:#0f4c81;
-}
+    <meta name="twitter:card" content="summary_large_image">
 
-.container{
-width:90%;
-max-width:1100px;
-margin:auto;
-padding:50px 0;
-}
+    <link rel="icon" href="images/favicon.png">
 
-.section-title{
-font-size:32px;
-margin-bottom:30px;
-color:#0f4c81;
-text-align:center;
-}
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 
-.about{
-background:white;
-padding:35px;
-border-radius:10px;
-box-shadow:0 5px 20px rgba(0,0,0,.08);
-}
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-.skills{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:20px;
-}
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 
-.skill-card{
-background:white;
-padding:20px;
-border-radius:10px;
-box-shadow:0 4px 15px rgba(0,0,0,.08);
-}
+    <!-- Font Awesome -->
 
-.skill-card h3{
-margin-bottom:15px;
-color:#0f4c81;
-}
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
 
-.timeline{
-border-left:4px solid #0f4c81;
-padding-left:25px;
-}
+    <!-- CSS -->
 
-.job{
-margin-bottom:40px;
-position:relative;
-}
-
-.job::before{
-content:"";
-position:absolute;
-left:-35px;
-top:5px;
-width:15px;
-height:15px;
-background:#0f4c81;
-border-radius:50%;
-}
-
-.job h3{
-color:#0f4c81;
-}
-
-.job span{
-font-size:14px;
-color:gray;
-}
-
-.job ul{
-margin-top:10px;
-padding-left:20px;
-}
-
-.education,.achievement,.contact{
-background:white;
-padding:30px;
-border-radius:10px;
-box-shadow:0 5px 20px rgba(0,0,0,.08);
-}
-
-footer{
-background:#222;
-color:white;
-text-align:center;
-padding:25px;
-margin-top:40px;
-}
-
-@media(max-width:768px){
-
-header h1{
-font-size:2.2rem;
-}
-
-nav{
-flex-wrap:wrap;
-}
-}
-</style>
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-<header>
+    <!-- Floating Background -->
 
-<h1>Sreelakshmi KN</h1>
+    <div class="background-blobs">
 
-<h2>Instructional Designer | Learning Experience Designer | eLearning Developer | AI-Powered Content Creator</h2>
+        <span></span>
+        <span></span>
+        <span></span>
 
-<p>Designing engaging digital learning experiences through storytelling, multimedia, gamification and AI.</p>
+    </div>
 
-<a href="#contact" class="btn">Contact Me</a>
+    <!-- ========================= -->
+    <!-- Navigation -->
+    <!-- ========================= -->
 
-</header>
+    <header>
 
-<nav>
+        <nav class="navbar">
 
-<a href="#about">About</a>
-<a href="#skills">Skills</a>
-<a href="#experience">Experience</a>
-<a href="#education">Education</a>
-<a href="#contact">Contact</a>
+            <div class="logo">
+                Sreelakshmi<span>.</span>
+            </div>
 
-</nav>
+            <ul class="nav-links">
 
-<section id="about" class="container">
+                <li><a href="#home">Home</a></li>
 
-<h2 class="section-title">About Me</h2>
+                <li><a href="#about">About</a></li>
 
-<div class="about">
+                <li><a href="#skills">Skills</a></li>
 
-<p>
+                <li><a href="#experience">Experience</a></li>
 
-Instructional Designer with 6+ years of experience designing engaging learning experiences for corporate and educational audiences. Experienced in Articulate Storyline 360, Rise 360, ILT development, AI-powered content creation, multimedia production, visual storytelling, gamification and presentation design.
+                <li><a href="#projects">Projects</a></li>
 
-</p>
+                <li><a href="#contact">Contact</a></li>
 
-</div>
+            </ul>
+
+            <div class="nav-actions">
+
+                <!-- Dark Mode -->
+
+                <button id="theme-toggle">
+
+                    <i class="fa-solid fa-moon"></i>
+
+                </button>
+
+                <!-- Mobile Menu -->
+
+                <button id="menu-btn">
+
+                    <i class="fa-solid fa-bars"></i>
+
+                </button>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- ========================= -->
+    <!-- Hero -->
+    <!-- ========================= -->
+
+    <section id="home" class="hero">
+
+        <div class="glass hero-content">
+
+            <div class="hero-left">
+
+                <p class="hello">
+
+                    Hello, I'm
+
+                </p>
+
+                <h1>
+
+                    Sreelakshmi KN
+
+                </h1>
+
+                <h2>
+
+                    <span id="typing"></span>
+
+                </h2>
+
+                <p class="hero-description">
+
+                    Creating engaging learning experiences through
+                    instructional design, storytelling, multimedia,
+                    AI-powered content creation, and interactive
+                    eLearning.
+
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="resume.pdf"
+                        class="btn primary"
+                        download>
+
+                        <i class="fa-solid fa-download"></i>
+
+                        Download Resume
+
+                    </a>
+
+                    <a href="#contact"
+                        class="btn secondary">
+
+                        Contact Me
+
+                    </a>
+
+                </div>
+
+                <!-- Social -->
+
+                <div class="social-icons">
+
+                    <a href="https://linkedin.com/"
+                        target="_blank">
+
+                        <i class="fab fa-linkedin"></i>
+
+                    </a>
+
+                    <a href="https://github.com/sreelakshmikn29"
+                        target="_blank">
+
+                        <i class="fab fa-github"></i>
+
+                    </a>
+
+                    <a href="mailto:sreelakshmikn166@gmail.com">
+
+                        <i class="fa-solid fa-envelope"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Right -->
+
+            <div class="hero-right">
+
+                <div class="profile-card">
+
+                    <img src="images/profile.jpg"
+                        alt="Sreelakshmi KN">
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Scroll -->
+
+        <div class="scroll-indicator">
+
+            <span></span>
+
+        </div>
+
+    </section>
+
+ <!-- ========================= -->
+<!-- About -->
+<!-- ========================= -->
+
+<section id="about" class="section">
+
+    <div class="container">
+
+        <h2 class="section-title">
+            About Me
+        </h2>
+
+        <div class="glass about-container">
+
+            <div class="about-text">
+
+                <h3>
+                    Designing Learning That Inspires
+                </h3>
+
+                <p>
+
+                    I am an Instructional Designer with 6+ years of
+                    experience designing engaging learning experiences
+                    for corporate and educational audiences. My passion
+                    lies in transforming complex business processes into
+                    interactive, learner-centric experiences using
+                    storytelling, AI, multimedia, and modern eLearning
+                    technologies.
+
+                </p>
+
+                <p>
+
+                    I enjoy collaborating with SMEs, building interactive
+                    Storyline courses, creating AI-powered videos, and
+                    designing visually compelling training that improves
+                    learner engagement and performance.
+
+                </p>
+
+            </div>
+
+            <div class="about-stats">
+
+                <div class="stat-card glass">
+
+                    <h2 class="counter"
+                        data-target="6">0</h2>
+
+                    <span>Years Experience</span>
+
+                </div>
+
+                <div class="stat-card glass">
+
+                    <h2 class="counter"
+                        data-target="50">0</h2>
+
+                    <span>Storyboards Created</span>
+
+                </div>
+
+                <div class="stat-card glass">
+
+                    <h2 class="counter"
+                        data-target="20">0</h2>
+
+                    <span>ILT Programs</span>
+
+                </div>
+
+                <div class="stat-card glass">
+
+                    <h2 class="counter"
+                        data-target="100">0</h2>
+
+                    <span>Learning Assets</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
 
 </section>
 
-<section id="skills" class="container">
+<!-- ========================= -->
+<!-- Skills -->
+<!-- ========================= -->
 
-<h2 class="section-title">Core Skills</h2>
+<section id="skills" class="section">
 
-<div class="skills">
+    <div class="container">
 
-<div class="skill-card">
-<h3>Instructional Design</h3>
-<p>ADDIE, TNA, Storyboarding, Curriculum Design, Scenario-Based Learning, Gamification</p>
-</div>
+        <h2 class="section-title">
 
-<div class="skill-card">
-<h3>Authoring Tools</h3>
-<p>Articulate Storyline 360, Rise 360</p>
-</div>
+            Skills & Expertise
 
-<div class="skill-card">
-<h3>Design & Video</h3>
-<p>Canva, Vyond, Create Studio, Google Flow AI</p>
-</div>
+        </h2>
 
-<div class="skill-card">
-<h3>AI Tools</h3>
-<p>ChatGPT, Gemini, NotebookLM, HeyGen, Gamma AI, Manus AI, ElevenLabs, Nano Banana, Mentimeter</p>
-</div>
+        <div class="skills-grid">
 
-<div class="skill-card">
-<h3>Microsoft Office</h3>
-<p>PowerPoint, Excel</p>
-</div>
+            <div class="glass skill-card">
 
-<div class="skill-card">
-<h3>Specializations</h3>
-<p>Interactive eLearning, Motion Graphics, Video Production, Visual Storytelling</p>
-</div>
+                <h3>Instructional Design</h3>
 
-</div>
+                <div class="progress">
+
+                    <div class="progress-bar"
+                        data-width="95%"></div>
+
+                </div>
+
+                <span>95%</span>
+
+            </div>
+
+            <div class="glass skill-card">
+
+                <h3>Articulate Storyline 360</h3>
+
+                <div class="progress">
+
+                    <div class="progress-bar"
+                        data-width="92%"></div>
+
+                </div>
+
+                <span>92%</span>
+
+            </div>
+
+            <div class="glass skill-card">
+
+                <h3>Rise 360</h3>
+
+                <div class="progress">
+
+                    <div class="progress-bar"
+                        data-width="90%"></div>
+
+                </div>
+
+                <span>90%</span>
+
+            </div>
+
+            <div class="glass skill-card">
+
+                <h3>AI Content Creation</h3>
+
+                <div class="progress">
+
+                    <div class="progress-bar"
+                        data-width="94%"></div>
+
+                </div>
+
+                <span>94%</span>
+
+            </div>
+
+            <div class="glass skill-card">
+
+                <h3>Video Production</h3>
+
+                <div class="progress">
+
+                    <div class="progress-bar"
+                        data-width="88%"></div>
+
+                </div>
+
+                <span>88%</span>
+
+            </div>
+
+            <div class="glass skill-card">
+
+                <h3>Canva & Visual Design</h3>
+
+                <div class="progress">
+
+                    <div class="progress-bar"
+                        data-width="90%"></div>
+
+                </div>
+
+                <span>90%</span>
+
+            </div>
+
+            <div class="glass skill-card">
+
+                <h3>Gamification</h3>
+
+                <div class="progress">
+
+                    <div class="progress-bar"
+                        data-width="86%"></div>
+
+                </div>
+
+                <span>86%</span>
+
+            </div>
+
+            <div class="glass skill-card">
+
+                <h3>Presentation Design</h3>
+
+                <div class="progress">
+
+                    <div class="progress-bar"
+                        data-width="95%"></div>
+
+                </div>
+
+                <span>95%</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ========================= -->
+<!-- Experience -->
+<!-- ========================= -->
+
+<section id="experience" class="section">
+
+    <div class="container">
+
+        <h2 class="section-title">
+
+            Professional Journey
+
+        </h2>
+
+        <div class="timeline">
+
+            <div class="timeline-item left">
+
+                <div class="glass timeline-content">
+
+                    <span class="year">
+
+                        Aug 2024 – Present
+
+                    </span>
+
+                    <h3>
+
+                        Instructional Designer
+
+                    </h3>
+
+                    <h4>
+
+                        MSI Services
+
+                    </h4>
+
+                    <ul>
+
+                        <li>
+                            Designed interactive Storyline 360 and Rise 360 learning.
+                        </li>
+
+                        <li>
+                            Developed scenario-based simulations and gamified learning.
+                        </li>
+
+                        <li>
+                            Created AI-powered videos and multimedia assets.
+                        </li>
+
+                        <li>
+                            Conducted Training Needs Analysis.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="timeline-item right">
+
+                <div class="glass timeline-content">
+
+                    <span class="year">
+
+                        Dec 2023 – Jul 2024
+
+                    </span>
+
+                    <h3>
+
+                        Content Creator / Editor
+
+                    </h3>
+
+                    <h4>
+
+                        LRNR Global
+
+                    </h4>
+
+                    <ul>
+
+                        <li>
+                            Developed educational content.
+                        </li>
+
+                        <li>
+                            Created interactive simulations.
+                        </li>
+
+                        <li>
+                            Evaluated learner engagement.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="timeline-item left">
+
+                <div class="glass timeline-content">
+
+                    <span class="year">
+
+                        Feb 2021 – Dec 2023
+
+                    </span>
+
+                    <h3>
+
+                        Creative Content Writer
+
+                    </h3>
+
+                    <h4>
+
+                        Narayana Group
+
+                    </h4>
+
+                    <ul>
+
+                        <li>
+                            Developed lesson plans and scripts.
+                        </li>
+
+                        <li>
+                            Created 50+ storyboards.
+                        </li>
+
+                        <li>
+                            Collaborated with SMEs and stakeholders.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="timeline-item right">
+
+                <div class="glass timeline-content">
+
+                    <span class="year">
+
+                        Apr 2018 – Jan 2021
+
+                    </span>
+
+                    <h3>
+
+                        Subject Matter Expert
+
+                    </h3>
+
+                    <h4>
+
+                        Straive
+
+                    </h4>
+
+                    <ul>
+
+                        <li>
+                            Developed and reviewed educational content.
+                        </li>
+
+                        <li>
+                            Supported academic and corporate learning.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
 
 </section>
 
-<section id="experience" class="container">
+<!-- ========================= -->
+<!-- Education -->
+<!-- ========================= -->
 
-<h2 class="section-title">Professional Experience</h2>
+<section id="education" class="section">
 
-<div class="timeline">
+    <div class="container">
 
-<div class="job">
+        <h2 class="section-title">
 
-<h3>Instructional Designer</h3>
+            Education
 
-<span>MSI Services | Aug 2024 - Present</span>
+        </h2>
 
-<ul>
-<li>Develop interactive eLearning using Storyline 360 and Rise 360.</li>
-<li>Create engaging instructor-led training presentations.</li>
-<li>Build simulations and gamified learning experiences.</li>
-<li>Produce AI-powered training videos.</li>
-<li>Collaborate with SMEs using ADDIE methodology.</li>
-<li>Conduct Training Needs Analysis.</li>
-</ul>
+        <div class="education-grid">
 
-</div>
+            <div class="glass education-card">
 
-<div class="job">
+                <i class="fa-solid fa-graduation-cap"></i>
 
-<h3>Content Creator / Editor</h3>
+                <h3>M.Sc. Chemistry</h3>
 
-<span>LRNR Global | Dec 2023 - Jul 2024</span>
+                <p>Mahatma Gandhi University</p>
 
-<ul>
-<li>Created educational content and simulations.</li>
-<li>Evaluated learner engagement and instructional quality.</li>
-</ul>
+            </div>
 
-</div>
+            <div class="glass education-card">
 
-<div class="job">
+                <i class="fa-solid fa-school"></i>
 
-<h3>Creative Content Writer</h3>
+                <h3>B.Sc. Chemistry</h3>
 
-<span>Narayana Group | Feb 2021 - Dec 2023</span>
+                <p>Kannur University</p>
 
-<ul>
-<li>Developed lesson plans, educational videos and storyboards.</li>
-<li>Created 50+ educational scripts.</li>
-</ul>
+            </div>
 
-</div>
+        </div>
 
-<div class="job">
-
-<h3>Subject Matter Expert</h3>
-
-<span>Straive | Apr 2018 - Jan 2021</span>
-
-<ul>
-<li>Developed and quality-reviewed academic and corporate learning content.</li>
-</ul>
-
-</div>
-
-</div>
+    </div>
 
 </section>
 
-<section id="education" class="container">
+<!-- ========================= -->
+<!-- Projects -->
+<!-- ========================= -->
 
-<h2 class="section-title">Education</h2>
+<section id="projects" class="section">
 
-<div class="education">
+    <div class="container">
 
-<h3>M.Sc. Chemistry</h3>
-<p>Mahatma Gandhi University</p>
+        <h2 class="section-title">
+            Featured Projects
+        </h2>
 
-<br>
+        <div class="projects-grid">
 
-<h3>B.Sc. Chemistry</h3>
-<p>Kannur University</p>
+            <div class="glass project-card">
 
-</div>
+                <img src="images/project1.jpg" alt="Interactive eLearning">
+
+                <div class="project-content">
+
+                    <h3>Interactive eLearning</h3>
+
+                    <p>
+                        Designed an interactive Storyline 360 course with
+                        branching scenarios, simulations and gamified
+                        assessments.
+                    </p>
+
+                    <div class="project-tags">
+
+                        <span>Storyline 360</span>
+                        <span>JavaScript</span>
+                        <span>Gamification</span>
+
+                    </div>
+
+                    <a href="#" class="project-btn">
+                        View Project
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="glass project-card">
+
+                <img src="images/project2.jpg" alt="AI Video">
+
+                <div class="project-content">
+
+                    <h3>AI Training Videos</h3>
+
+                    <p>
+                        Developed AI-powered training videos using
+                        Google Flow AI, HeyGen, Create Studio and
+                        ElevenLabs.
+                    </p>
+
+                    <div class="project-tags">
+
+                        <span>AI</span>
+                        <span>Video</span>
+                        <span>HeyGen</span>
+
+                    </div>
+
+                    <a href="#" class="project-btn">
+                        View Project
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="glass project-card">
+
+                <img src="images/project3.jpg" alt="ILT">
+
+                <div class="project-content">
+
+                    <h3>ILT Presentation</h3>
+
+                    <p>
+                        Designed engaging instructor-led training
+                        presentations with animations and learner
+                        activities.
+                    </p>
+
+                    <div class="project-tags">
+
+                        <span>PowerPoint</span>
+                        <span>ILT</span>
+                        <span>Design</span>
+
+                    </div>
+
+                    <a href="#" class="project-btn">
+                        View Project
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
 
 </section>
 
-<section class="container">
+<!-- ========================= -->
+<!-- Achievements -->
+<!-- ========================= -->
 
-<h2 class="section-title">Achievements</h2>
+<section id="achievements" class="section">
 
-<div class="achievement">
+    <div class="container">
 
-<ul>
+        <h2 class="section-title">
+            Achievements
+        </h2>
 
-<li>🏆 Spot Award for creativity and performance.</li>
+        <div class="achievement-grid">
 
-<li>🎬 Created a full-length 3D video for the company's Annual Leadership Program.</li>
+            <div class="glass achievement-card">
 
-</ul>
+                <i class="fa-solid fa-award"></i>
 
-</div>
+                <h3>Spot Award</h3>
+
+                <p>
+                    Recognized for creativity,
+                    innovation and exceptional performance.
+                </p>
+
+            </div>
+
+            <div class="glass achievement-card">
+
+                <i class="fa-solid fa-film"></i>
+
+                <h3>Leadership Program</h3>
+
+                <p>
+                    Created a full-length 3D video for the
+                    company's Annual Leadership Program.
+                </p>
+
+            </div>
+
+            <div class="glass achievement-card">
+
+                <i class="fa-solid fa-lightbulb"></i>
+
+                <h3>Innovation</h3>
+
+                <p>
+                    Introduced AI-powered video creation,
+                    learner feedback automation and creative
+                    flyer initiatives.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
 
 </section>
 
-<section id="contact" class="container">
+<!-- ========================= -->
+<!-- Contact -->
+<!-- ========================= -->
 
-<h2 class="section-title">Contact</h2>
+<section id="contact" class="section">
 
-<div class="contact">
+    <div class="container">
 
-<p><strong>Email:</strong> sreelakshmikn166@gmail.com</p>
+        <h2 class="section-title">
+            Let's Connect
+        </h2>
 
-<p><strong>Location:</strong> Bengaluru, India</p>
+        <div class="contact-wrapper">
 
-<p><strong>LinkedIn:</strong> Add your LinkedIn profile here</p>
+            <div class="glass contact-info">
 
-<p><strong>GitHub:</strong> Add your GitHub profile here</p>
+                <h3>Get in Touch</h3>
 
-</div>
+                <p>
+                    I'm always interested in discussing
+                    instructional design, eLearning,
+                    AI-powered learning and exciting
+                    collaboration opportunities.
+                </p>
+
+                <div class="contact-item">
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    <span>
+                        sreelakshmikn166@gmail.com
+                    </span>
+
+                </div>
+
+                <div class="contact-item">
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    <span>
+                        Bengaluru, Karnataka, India
+                    </span>
+
+                </div>
+
+                <div class="contact-item">
+
+                    <i class="fab fa-linkedin"></i>
+
+                    <span>
+                        linkedin.com/in/your-profile
+                    </span>
+
+                </div>
+
+                <div class="contact-item">
+
+                    <i class="fab fa-github"></i>
+
+                    <span>
+                        github.com/sreelakshmikn29
+                    </span>
+
+                </div>
+
+            </div>
+
+            <form id="contact-form"
+                  class="glass contact-form">
+
+                <input
+                    type="text"
+                    placeholder="Your Name"
+                    required>
+
+                <input
+                    type="email"
+                    placeholder="Your Email"
+                    required>
+
+                <input
+                    type="text"
+                    placeholder="Subject"
+                    required>
+
+                <textarea
+                    rows="6"
+                    placeholder="Your Message"
+                    required></textarea>
+
+                <button
+                    type="submit"
+                    class="btn primary">
+
+                    Send Message
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
 
 </section>
+
+<!-- ========================= -->
+<!-- Footer -->
+<!-- ========================= -->
 
 <footer>
 
-<p>© 2026 Sreelakshmi KN | Designed with HTML & CSS</p>
+    <div class="container">
+
+        <div class="footer-content">
+
+            <h2>Sreelakshmi KN</h2>
+
+            <p>
+
+                Instructional Designer • eLearning Developer •
+                AI-Powered Content Creator
+
+            </p>
+
+            <div class="footer-social">
+
+                <a href="https://github.com/sreelakshmikn29"
+                   target="_blank">
+
+                    <i class="fab fa-github"></i>
+
+                </a>
+
+                <a href="#"
+                   target="_blank">
+
+                    <i class="fab fa-linkedin"></i>
+
+                </a>
+
+                <a href="mailto:sreelakshmikn166@gmail.com">
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                </a>
+
+            </div>
+
+            <p class="copyright">
+
+                © 2026 Sreelakshmi KN. All Rights Reserved.
+
+            </p>
+
+        </div>
+
+    </div>
 
 </footer>
 
+<!-- Scroll to Top -->
+
+<button id="scrollTop">
+
+    <i class="fa-solid fa-arrow-up"></i>
+
+</button>
+
+<!-- ========================= -->
+<!-- JavaScript -->
+<!-- ========================= -->
+
+<script src="script.js"></script>
+
 </body>
+
 </html>
