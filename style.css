@@ -2647,3 +2647,44 @@ transform:translateY(0);
 }
 
 }
+/* ==========================================
+   PROJECT VIDEO LINKS
+========================================== */
+
+.project-video-links{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:12px;
+
+    margin-top:20px;
+
+}
+
+.project-video-links .project-btn{
+
+    flex:1;
+
+    min-width:180px;
+
+    text-align:center;
+
+}
+
+@media(max-width:768px){
+
+.project-video-links{
+
+    flex-direction:column;
+
+}
+
+.project-video-links .project-btn{
+
+    width:100%;
+
+}
+
+}
