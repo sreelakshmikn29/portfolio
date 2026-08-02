@@ -2609,3 +2609,41 @@ transform:translateY(0);
 }
 
 }
+
+/* ==========================================
+   PROJECT GALLERY BUTTONS
+========================================== */
+
+.project-gallery-buttons{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:12px;
+
+    margin-top:20px;
+
+}
+
+.project-gallery-buttons .project-btn{
+
+    width:100%;
+
+    text-align:center;
+
+    padding:12px 15px;
+
+    font-size:.9rem;
+
+}
+
+@media(max-width:768px){
+
+.project-gallery-buttons{
+
+    grid-template-columns:1fr;
+
+}
+
+}
