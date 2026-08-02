@@ -2544,3 +2544,68 @@ transform:translateY(0);
 }
 
 }
+
+/* ==========================================
+   HERO MEDIA
+========================================== */
+
+.hero-media{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:30px;
+
+    flex-wrap:wrap;
+
+}
+
+.intro-video{
+
+    width:320px;
+
+    padding:15px;
+
+    text-align:center;
+
+}
+
+.intro-video video{
+
+    width:100%;
+
+    border-radius:15px;
+
+    display:block;
+
+}
+
+.intro-video h4{
+
+    margin-top:15px;
+
+    color:var(--primary);
+
+    font-size:1rem;
+
+}
+
+@media(max-width:992px){
+
+.hero-media{
+
+    flex-direction:column;
+
+}
+
+.intro-video{
+
+    width:100%;
+    max-width:350px;
+
+}
+
+}
